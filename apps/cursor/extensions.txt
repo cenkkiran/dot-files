@@ -1,0 +1,78 @@
+# Cursor Extensions
+# Based on your current development setup
+
+# AI & Code Intelligence
+altimateai.vscode-altimate-mcp-server
+github.copilot
+github.copilot-chat
+visualstudioexptteam.intellicode-api-usage-examples
+visualstudioexptteam.vscodeintellicode
+
+# Language Support - Python
+anysphere.pyright
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-renderers
+ms-toolsai.vscode-jupyter-cell-tags
+ms-toolsai.vscode-jupyter-slideshow
+ms-toolsai.datawrangler
+
+# Language Support - JavaScript/TypeScript
+ms-vscode.vscode-typescript-next
+dsznajder.es7-react-js-snippets
+denoland.vscode-deno
+
+# Language Support - Web Development
+bradlc.vscode-tailwindcss
+christian-kohler.path-intellisense
+samuelcolvin.jinjahtml
+mikestead.dotenv
+
+# Language Support - GraphQL
+graphql.vscode-graphql
+graphql.vscode-graphql-syntax
+
+# Language Support - Other
+ms-vscode.makefile-tools
+tialki.tex-preview
+
+# Database & Analytics
+mtxr.sqltools
+mtxr.sqltools-driver-mysql
+mtxr.sqltools-driver-pg
+evidence.sqltools-bigquery-driver
+innoverio.vscode-dbt-power-user
+mechatroner.rainbow-csv
+
+# Git & Version Control
+eamodio.gitlens
+mhutchie.git-graph
+github.vscode-github-actions
+
+# Docker & DevOps
+ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+
+# Backend Services
+supabase.vscode-supabase-extension
+supabase-snippets.supabase-javascript-snippets
+
+# Testing
+vitest.explorer
+zixuanchen.vitest-explorer
+
+# Formatters & Linters
+esbenp.prettier-vscode
+dbaeumer.vscode-eslint
+davidanson.vscode-markdownlint
+streetsidesoftware.code-spell-checker
+
+# UI & Themes
+pkief.material-icon-theme
+
+# Utilities
+wayou.vscode-todo-highlight
+yzhang.markdown-all-in-one
+naumovs.color-highlight 
