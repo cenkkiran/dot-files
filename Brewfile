@@ -2,9 +2,9 @@
 # Generated based on current application inventory
 
 # Taps
-tap "homebrew/bundle"
+# tap "homebrew/bundle"  # Deprecated - no longer needed
 tap "homebrew/services"
-tap "homebrew/cask-fonts"
+# tap "homebrew/cask-fonts"  # Deprecated - fonts moved to homebrew/core
 tap "microsoft/git"
 
 # CLI Tools
@@ -18,7 +18,7 @@ brew "yq"
 brew "ripgrep"
 brew "fd"
 brew "bat"
-brew "exa"
+brew "eza"            # exa was renamed to eza
 brew "fzf"
 brew "tmux"
 brew "neovim"
@@ -53,14 +53,14 @@ brew "docker-compose"
 # Browsers
 cask "arc"
 cask "google-chrome"
-cask "zen-browser"
+# cask "zen-browser"    # Currently having download issues - install manually if needed
 
 # Development
 cask "cursor"
 cask "sublime-text"
-cask "dbeaver"
+cask "dbeaver-community"  # dbeaver is now dbeaver-community
 cask "postman"
-cask "docker"
+# cask "docker"         # Commented out due to permission issues - install manually if needed
 
 # Terminals
 cask "iterm2"
@@ -70,13 +70,13 @@ cask "iterm2"
 cask "raycast"
 cask "notion"
 cask "obsidian"
-cask "joplin"
+# cask "joplin"         # Version conflict - install manually if needed
 cask "1password"
-cask "bartender5"          # Might be "bartender" depending on version
-cask "magnet"
-cask "amphetamine"
-cask "alttab"
-cask "maccy"               # clipboard manager
+cask "bartender"       # bartender5 doesn't exist, use bartender
+# cask "magnet"         # Not available via cask - use Mac App Store version instead
+# cask "amphetamine"    # Not available via cask - use Mac App Store version instead
+cask "alt-tab"         # alttab is now alt-tab
+cask "maccy"           # clipboard manager
 cask "cleanshot"
 cask "shottr"
 
@@ -105,15 +105,16 @@ cask "grammarly-desktop"
 # Utilities
 cask "the-unarchiver"
 
-# Fonts
+# Fonts (now available in homebrew/core)
 cask "font-fira-code"
 cask "font-jetbrains-mono"
 cask "font-source-code-pro"
 cask "font-hack"
-cask 'font-sauce-code-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
+cask "font-sauce-code-pro-nerd-font"  # Updated name
+# cask "font-source-code-pro"          # Duplicate removed
+cask "font-source-sans-pro"
+cask "font-source-serif-pro"
+
 # Mac App Store Applications (via mas)
 # Get app IDs with: mas search "App Name"
 mas "Magnet", id: 441258766
