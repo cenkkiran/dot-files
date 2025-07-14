@@ -64,10 +64,10 @@ pip freeze > requirements.txt
 5. macOS preferences application
 6. Application-specific configurations
 
-### Missing Files to Add
-- `config/.zshrc` - Zsh configuration file
-- `config/.gitconfig` - Git configuration file
-These files are referenced by symlinks.sh but not present in the repository.
+### Configuration Files Present
+- `config/.zshrc` - Zsh configuration file with Starship prompt
+- `config/.gitconfig` - Git configuration with Cursor integration
+- `config/starship.toml` - Starship prompt configuration
 
 ## Important Notes
 
