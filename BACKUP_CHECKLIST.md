@@ -2,7 +2,7 @@
 
 ## 🚀 Quick Start
 ```bash
-cd ~/.dotfiles
+cd ~/github/dot-files
 ./backup_script.sh
 ```
 
